@@ -1,7 +1,7 @@
-# DigiHana NFT collection
+# UNCHAIN NFT minting site
 
 ### **Welcome 👋**
-Mint your own digital flower, each generated uniquely per mint and the image data written directly on chain. This is made possible by encoding the flower data as base64 and directly write it on the metadata, instead of pointing to an external source link.
+Specify the passport that you want to mint and input the recipient's address to send them the NFT.
 
 ### **Questions?**
 Ask [@_k1ddx](https://twitter.com/_k1ddx)
