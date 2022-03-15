@@ -1,5 +1,5 @@
 node_modules/
 build/
 /src/utils/hardhat/*
-!/src/utils/hardhat/contracts/UNCHAINNFT.sol/UNCHAIN_PASSPORT.json
+!/src/utils/hardhat/contracts
 .DS_Store
