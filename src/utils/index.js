@@ -1,0 +1,1 @@
+export * as ChaiPassNFT from "./hardhat/contracts/UNCHAINNFT.sol/UNCHAIN_PASSPORT.json";

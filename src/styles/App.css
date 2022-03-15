@@ -1,0 +1,173 @@
+.App {
+  height: 100vh;
+  background-color: #0d1116;
+  overflow: scroll;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  background-color: #0d1116;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-container {
+  padding-top: 30px;
+}
+
+.header {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.passport-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.passport-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.grant-roles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 40px;
+    position: absolute;
+}
+
+.sub-text {
+  font-size: 25px;
+  color: white;
+}
+
+.gradient-digi {
+  background: -webkit-linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-hana {
+  background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description{
+    text-align: left;
+    justify-content: left;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.loading{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20%;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.modalfill{
+    background: #0d1116;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    width:100%;
+    height:100%;
+    z-index: 1;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top:40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.connect-wallet-button {
+  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.grant-minter-button {
+  background: #ffa500;
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 15px;
+}
+
+.grant-admin-button {
+  background: #ff0000;
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 15px;
+}
+
+.mint-button {
+  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 15px;
+}
+.mint-button:hover{
+  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+}
+
+.opensea-button {
+  background-color: rgb(32, 129, 226);
+}
+
+.mint-count {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-supercontainer {
+  padding-bottom: 30px;
+  position: relative;
+}  
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
