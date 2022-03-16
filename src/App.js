@@ -13,8 +13,8 @@ import { ChaiPassNFT } from "./utils";
 // Constants
 const TWITTER_HANDLE = '_k1ddx';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const RARIBLE_LINK = 'https://rinkeby.rarible.com/token/';
-const OPENSEA_LINK = 'https://testnet.opensea.io/assets/mumbai/';
+const RARIBLE_LINK = 'https://rarible.com/token/';
+const OPENSEA_LINK = 'https://opensea.io/assets/';
 
 const CONTRACT_ADDRESS = "0xbD33f61CbdaE01edA17F46D481c3B25676515328";
 
